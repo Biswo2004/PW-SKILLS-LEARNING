@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form demo</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>User Details</legend>
+        <label for="name">Enter Your Name:</label>
+        <input type="text" id="name" name="username">
+        <br>
+        <label for="address">Please Enter Your Address:</label>
+        <textarea rows="10" cols="30" id="address"></textarea>
+        <br>
+        <label for="dob">DOB:</label>
+        <input type="date"  id="dob" name="userdob">
+        <br>
+        <label for="password">Enter Your Password</label>
+        <input type="password"  id="password" name="username">
+        <br>
+        Select Gender:
+        <label for="male">Male</label>
+        <input type="radio" name="usergender" id="male">
+        <br>
+        <label for="Female">Female</label>
+        <input type="radio" name="usergender" id="female">
+        <br>
+        <label for="transgender">Transgender</label>
+        <input type="radio" name="usergender" id="transgender">   
+        <br>
+        Select Favourite Movie:
+        <label for="avengers">Avengers</label>
+        <input type="checkbox" name="movie" id="avengers">
+        <label for="ironman">Ironman</label>
+        <input type="checkbox" name="movie" id="ironman">
+        <br>
+        <input type="submit" value="submit">
+    </fieldset>
+    </form>
+</body>
+</html>

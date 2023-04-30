@@ -1,0 +1,25 @@
+/* Des Selector */
+main p{
+    background-color: #fff;
+    color: red;
+}
+
+/* Child Selector */
+h1 > p{
+    color: blue;
+}
+/* Adjacent sibling Selector */
+section + p{
+    color: maroon;
+}
+/* General Sibling Selector */
+section ~ p{
+    color: greenyellow;
+}
+[target="_blank"]{
+    color: pink;
+    text-decoration: none;
+}
+[alt~="PW"]{
+    background-color: #000;
+}

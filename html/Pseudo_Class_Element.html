@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+    <style>
+        /* Pseudo Class */
+        /*.hover:hover{
+            background-color: #ea0ec5;
+            color:white;
+        }
+        input:focus{
+            color:#ff0000;
+            background-color: #000;
+            font-size: 25px;
+        }*/
+        a:hover{
+            color:#ffc0cb;
+        }
+        a:active{
+            color:#a52a2a;
+        }
+        /*a:visited{
+            color: #00ffff;
+        }*/
+        /*a:nth-child(2n){
+            background-color: #ffff00;
+
+        }*/
+        /* Pseudo Element */
+        p::first-line{
+            color: #ee82ee;
+        }
+        p::after{
+            color: #00ffff;
+            content: "-Biswojit";
+        }
+        p::before{
+            color: #00ffff;
+            content: "Biswojit-";
+        }
+        p::selection{
+            background-color: #000;
+            color:#ff0000;
+        }
+    </style>
+</head>
+<body>
+    <!-- Pseudo Class -->
+    <p class="hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, eligendi.</p>
+    <input type="text" name="" id="">
+    <hr>
+    <nav>
+    <a href="https://www.google.com/">Google</a>
+    <a href="https://www.google.com/">Google</a>
+    <a href="https://www.google.com/">Google</a>
+    <a href="https://www.google.com/">Google</a>
+    <a href="https://www.google.com/">Google</a>
+    </nav>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt corrupti, fuga alias laborum placeat, distinctio
+        quaerat accusantium eaque tenetur facilis voluptatem minus quo possimus? Totam explicabo optio, doloremque quidem
+        vel, quam iusto dicta voluptatem dolore suscipit modi dolorem facilis quis officiis non, sequi officia maiores
+        eligendi accusamus earum ea perspiciatis!</p>
+</body>
+</html>
