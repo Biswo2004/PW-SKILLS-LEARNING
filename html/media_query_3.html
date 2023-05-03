@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <style>
+        /* Screen Size:
+        -Larger Screen: 1440px;
+        -Normal Screen: 1024px;
+        -Tablet Screen:768px;
+        -Mobile Screen: 425px;*/
+ @media screen and (min-width: 0px) {
+  body {
+    background-color: #dc143c;
+  }
+
+  .mobile {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  body {
+    background-color: #00ffff;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .tablet {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #b8860b;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  .laptop {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: #008000;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  .laptop {
+    display: none;
+  }
+
+  .laptop_large {
+    display: block;
+  }
+}
+    </style>
+</head>
+<body>
+    <h1>This is a Media Query demo page.</h1>
+    <p class="laptop_large_screen">Screensize:1440px</p>
+    <p class="laptop">Screensize:1024px</p>
+    <p class="Tablet">Screensize:768px</p>
+    <p class="Mobile">Screensize:425px</p>
+</body>
+</html>
