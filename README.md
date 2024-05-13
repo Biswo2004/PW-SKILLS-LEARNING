@@ -1,2 +1,2 @@
 # PW-SKILLS-LEARNING
-This is the learning of me of Fullstack Web Development.
+This is the learning of mine of Fullstack Web Development.
